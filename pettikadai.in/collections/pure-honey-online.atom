@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://pettikadai.in/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://pettikadai.in/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://pettikadai.in/collections/pure-honey-online.atom"/>
+  <title>pettikadai.in</title>
+  <updated>2024-05-09T02:48:01-04:00</updated>
+  <author>
+    <name>pettikadai.in</name>
+  </author>
+  <entry>
+    <id>https://pettikadai.in/products/8486031491287</id>
+    <published>2024-05-09T02:48:01-04:00</published>
+    <updated>2024-05-09T02:48:01-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://pettikadai.in/products/honey-rose-gulkand"/>
+    <title>Honey Rose Gulkand</title>
+    <s:type>Natural</s:type>
+    <s:vendor>Pettikadai</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0537/5249/6309/files/Untitled_design_29.png?v=1724049691"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Pettikadai<br>
+        <strong>Type: </strong>Natural<br>
+        <strong>Price: </strong>
+            395.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>A sweet rose preserve, Pettikadai's Rose gulkand is a labour of love. Made exclusively with the Indian demask rose petals which blossom only twice a year, these natural Kodaikanal forest wonders are collected by the local tribals. Rose petals, organic Khus khus, dried black grapes, cucumber seeds and raw wild honey are sun cooked for over a period of 48 days. A powerful antioxidant and anti-inflammatory, a teaspoon of gulkand in warm milk before sleep is just the thing for a restful sleep. Make your everyday a little more healthier with our Gulkand!</p>
+<p><strong>INGREDIENTS</strong></p>
+<p> Indian Damask Rose Petals, Khus Khus, Cucumber Seeds, Raw Wild Honey, Dry Black Grapes<strong></strong></p>
+<p><strong>HOW CAN YOU USE ?</strong></p>
+<p>1. As it is 2. Whip it up with Cold Cow Milk</p>
+<p><strong>SHELF LIFE</strong></p>
+<p>6 Months</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://pettikadai.in/products/8486031491287</id>
+      <title>300 gm</title>
+      <s:price currency="INR">395.00</s:price>
+      <s:sku>GRA005</s:sku>
+      <s:grams>550</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://pettikadai.in/products/6579867189429</id>
+    <published>2022-11-11T08:08:18-05:00</published>
+    <updated>2022-11-11T08:08:18-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://pettikadai.in/products/jamun-naval-honey"/>
+    <title>Organic Naval Honey</title>
+    <s:type>Natural</s:type>
+    <s:vendor>Vibis Honey Bee Farm</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0537/5249/6309/products/Naval.jpg?v=1749048223"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Vibis Honey Bee Farm<br>
+        <strong>Type: </strong>Natural<br>
+        <strong>Price: </strong>
+            350.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Naval Honey is sourced from Naval flowers.Naval honey is used for Treating Ulcers &amp; Reducing Blood Sugar Levels.It's rich in vitamin C and consuming foods rich in vitamin c helps with effective iron absorption. For women who are deficient in iron consuming naval honey will greatly help with iron absorption.</p>
+<p><strong>Ingredients</strong></p>
+<p> Naval Honey</p>
+<p><strong>Storage Instruction</strong></p>
+<p>Store in an airtight container in a dry place, away from direct sunlight.Do not Refrigerate</p>
+<p><strong>Shelf life</strong></p>
+<p>24 months</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://pettikadai.in/products/6579867189429</id>
+      <title>400 gms</title>
+      <s:price currency="INR">350.00</s:price>
+      <s:sku>OVH004</s:sku>
+      <s:grams>700</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://pettikadai.in/products/7572115587287</id>
+    <published>2022-03-12T03:04:35-05:00</published>
+    <updated>2022-03-12T03:04:35-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://pettikadai.in/products/amla-honey-1"/>
+    <title>Amla Honey</title>
+    <s:type>Veg</s:type>
+    <s:vendor>Vibis Honey Bee Farm</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0537/5249/6309/products/Amla.jpg?v=1672645592"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Vibis Honey Bee Farm<br>
+        <strong>Type: </strong>Veg<br>
+        <strong>Price: </strong>
+            260.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>The Indian gooseberry popularly known as Amla in the north &amp; Nellikkai in the south is one of nature's nutrient-rich foods. The honey takes out the bitterness from the amla and makes it extremely delicious. It Controls Blood Sugar,<br>Provides Body Warmth,Helps To Cure Daily Cough And Cold<br>Strengthen The Immune System</p>
+<p><strong>Ingredients</strong></p>
+<p>Amla&amp;Honey</p>
+<p><strong>Storage Instruction</strong></p>
+<p>Store in an airtight container in a dry place, away from direct sunlight.Do not Refrigerate</p>
+<p><strong>Shelf Life</strong></p>
+<p>24 months</p>
+<p> </p>
+<p><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://pettikadai.in/products/7572115587287</id>
+      <title>500gms</title>
+      <s:price currency="INR">260.00</s:price>
+      <s:sku>OVH006</s:sku>
+      <s:grams>700</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://pettikadai.in/products/6579867091125</id>
+    <published>2022-03-12T02:55:25-05:00</published>
+    <updated>2022-03-12T02:55:25-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://pettikadai.in/products/multiflower-honey"/>
+    <title>Organic Multiflower Honey</title>
+    <s:type>Natural</s:type>
+    <s:vendor>Vibis Honey Bee Farm</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0537/5249/6309/products/Multi.jpg?v=1749048221"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Vibis Honey Bee Farm<br>
+        <strong>Type: </strong>Natural<br>
+        <strong>Price: </strong>
+            290.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Multiflower Honey is directly sourced from honeycombs where the bees collect nectar from flowers that blossom in pristine natural surroundings. Rich in vitamins and minerals,<br>High nutritional value,Medicinal properties for bronchial diseases.The multi-flower honey has an high sweetening power for beverages like milk or tea</p>
+<p><strong>Ingredients</strong></p>
+<p>Multiflower Honey</p>
+<p><strong>Storage Instruction</strong></p>
+<p>Store in an airtight container in a dry place, away from direct sunlight.Do not Refrigerate</p>
+<p><strong>Shelf life</strong></p>
+<p>24 months</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://pettikadai.in/products/6579867091125</id>
+      <title>400 gms</title>
+      <s:price currency="INR">290.00</s:price>
+      <s:sku>OVH001</s:sku>
+      <s:grams>700</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://pettikadai.in/products/6579867123893</id>
+    <published>2022-03-12T02:52:44-05:00</published>
+    <updated>2022-03-12T02:52:44-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://pettikadai.in/products/hill-honey"/>
+    <title>Organic Hill Honey</title>
+    <s:type>Natural</s:type>
+    <s:vendor>Vibis Honey Bee Farm</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0537/5249/6309/products/Hillhoney.jpg?v=1749048222"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Vibis Honey Bee Farm<br>
+        <strong>Type: </strong>Natural<br>
+        <strong>Price: </strong>
+            310.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Hill Honey is authentic as it is sourced from native tribes of the Western Ghats of Tamilnadu. It Promotes good digestive health.Helps in curing cough and acts as a soothing agents for sore throats.Honey improves the immunity system.The anti-oxidants present in honey prevents some type of cancer.</p>
+<p><strong>Ingredients</strong></p>
+<p>Hill Honey</p>
+<p><strong>Storage Instruction</strong></p>
+<p>Store in an airtight container in a dry place, away from direct sunlight.Do not Refrigerate</p>
+<p><strong>Shelf life</strong></p>
+<p>24 months</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://pettikadai.in/products/6579867123893</id>
+      <title>400 gms</title>
+      <s:price currency="INR">310.00</s:price>
+      <s:sku>VGB008</s:sku>
+      <s:grams>700</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://pettikadai.in/products/6579867222197</id>
+    <published>2022-03-12T02:46:19-05:00</published>
+    <updated>2022-03-12T02:46:19-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://pettikadai.in/products/kombu-honey"/>
+    <title>Organic Kombu honey</title>
+    <s:type>Natural</s:type>
+    <s:vendor>Vibis Honey Bee Farm</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0537/5249/6309/products/kombuhoney.jpg?v=1749048224"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Vibis Honey Bee Farm<br>
+        <strong>Type: </strong>Natural<br>
+        <strong>Price: </strong>
+            480.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2> </h2>
+<h1><strong>Kombu Honey - Nature's Pure Essence</strong></h1>
+<p>Discover the richness of Kombu Honey, collected from naturally occurring combs built by dwarf/small bees (Apis Florea). Consuming honey with warm water in the morning on an empty stomach is known to aid in weight reduction and provide a refreshing start to your day. Kombu Honey is highly rich in iron, potassium, zinc, magnesium, vitamin B2, B3, B5, B6, calcium, and vitamin C.</p>
+<p>Enjoy the delightful taste of Kombu Honey with juice, shakes, tea, milk, bread, chapati, idly, and more. Enhance its flavor by pairing it with lemon, ginger, garlic, cinnamon, cumin, or amla.</p>
+<h2><strong>Ingredients:</strong></h2>
+<p>Kombu Honey</p>
+<h2><strong>Storage Instruction:</strong></h2>
+<p>Store in an airtight container in a dry place, away from direct sunlight. Do not refrigerate.</p>
+<h2><strong>Shelf Life:</strong></h2>
+<p>Indulge in the pure goodness for 24 months.</p>
+<p>Elevate your culinary experience with the pure essence of Kombu Honey. Order now to savor the natural sweetness and health benefits.</p>
+<h1><br></h1></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://pettikadai.in/products/6579867222197</id>
+      <title>400 gms</title>
+      <s:price currency="INR">480.00</s:price>
+      <s:sku>OVH005</s:sku>
+      <s:grams>700</s:grams>
+    </s:variant>
+  </entry>
+</feed>

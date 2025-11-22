@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://pettikadai.in/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://pettikadai.in/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://pettikadai.in/collections/nagercoil-collection.atom"/>
+  <title>pettikadai.in</title>
+  <updated>2021-05-01T04:11:42-04:00</updated>
+  <author>
+    <name>pettikadai.in</name>
+  </author>
+  <entry>
+    <id>https://pettikadai.in/products/6710702604469</id>
+    <published>2021-05-01T04:11:42-04:00</published>
+    <updated>2021-05-01T04:11:42-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://pettikadai.in/products/banana-nendram-yetham-palam-chips"/>
+    <title>Nagercoil  Banana Chips-நாகர்கோவில் நேந்திரம் சிப்ஸ்</title>
+    <s:type>Veg</s:type>
+    <s:vendor>Ramalekshmi Sweets</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0537/5249/6309/files/Cooliemunchpack_1300x600px_1300x400px_1080x1080px_1_730d6b53-3ba2-4eb2-8e92-036d63b68261.png?v=1755858161"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Ramalekshmi Sweets<br>
+        <strong>Type: </strong>Veg<br>
+        <strong>Price: </strong>
+            260.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><style type="text/css"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<h2><strong>This product is not eligible for one-day delivery</strong></h2>
+<p> </p>
+<h1><strong>Banana Chips - A Royal Treat Beyond Ordinary</strong></h1>
+<p>Look beyond the ordinary and savor the royal taste of Nendhiram (banana) chips. Made from carefully selected Raw Nendhiram bananas . these chips boast an unparalleled aroma. Authentic groundnut oil is used for frying, and black pepper is added for tempering, ensuring a flavor that lingers in your mouth. These chips stay fresh for up to 30 days from the date of preparation</p>
+<h3>
+<strong>INGREDIENTS</strong> </h3>
+<p>Raw Plantain, Salt, Turmeric Powder, Pepper, Groundnut Oil. </p>
+<h2><strong>SERVING GUIDE:</strong></h2>
+<p>Store in an airtight container.</p>
+<h2><strong>SHELF LIFE:</strong></h2>
+<p>Enjoy the royal flavor for 30 days.</p>
+<p>Savor the regal essence in every bite - order now at Pettikadai!</p>
+<p> </p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://pettikadai.in/products/6710702604469</id>
+      <title>250 gms</title>
+      <s:price currency="INR">260.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>350</s:grams>
+    </s:variant>
+  </entry>
+</feed>

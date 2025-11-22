@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://pettikadai.in/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://pettikadai.in/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://pettikadai.in/collections/mysorepak.atom"/>
+  <title>pettikadai.in</title>
+  <updated>2025-10-03T12:29:32-04:00</updated>
+  <author>
+    <name>pettikadai.in</name>
+  </author>
+  <entry>
+    <id>https://pettikadai.in/products/7016005206197</id>
+    <published>2025-10-03T12:29:32-04:00</published>
+    <updated>2025-10-03T12:29:32-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://pettikadai.in/products/ghee-mysorepak-1"/>
+    <title>GHEE MYSOREPAK-நெய் மைசூர்பாக்</title>
+    <s:type></s:type>
+    <s:vendor>Sattur</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0537/5249/6309/products/GHEEMYSOREPA.jpg?v=1672645592"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sattur<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            330.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h3><strong>This product contains Dairy items and cannot be shipped to EU and UK</strong></h3>
+<h2><strong>This product is not eligible for one-day delivery</strong></h2>
+<p> </p>
+<p><b>DESCRIPTION</b><span></span></p>
+<p>GHEE MYSOREPAK-நெய் மைசூர்பாக்<br></p>
+<h3>
+<strong>INGREDIENTS</strong> </h3>
+<p>Gram flour, Sugar, Ghee, Milk powder</p>
+<p><strong>SERVING GUIDE</strong><span></span></p>
+<p>Store in an airtight container</p>
+<p><strong>SHELF LIFE</strong><br></p>
+<p>20 Days Validity</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://pettikadai.in/products/7016005206197</id>
+      <title>250gms</title>
+      <s:price currency="INR">330.00</s:price>
+      <s:sku>SRM051</s:sku>
+      <s:grams>350</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://pettikadai.in/products/6579874365621</id>
+    <published>2021-03-13T05:13:38-05:00</published>
+    <updated>2021-03-13T05:13:38-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://pettikadai.in/products/pallapatti-mysurpa"/>
+    <title>Pallapatti Ghee Mysore Pak-பள்ளப்பட்டி நெய் மைசூர் பாக்</title>
+    <s:type>Veg</s:type>
+    <s:vendor>Hajimoosa</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0537/5249/6309/products/Pallpattimysorepak.jpg?v=1672645598"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Hajimoosa<br>
+        <strong>Type: </strong>Veg<br>
+        <strong>Price: </strong>
+            260.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h3><strong>This product contains Dairy items and cannot be shipped to EU and UK</strong></h3>
+<h2><strong>This product is not eligible for one-day delivery</strong></h2>
+<p> </p>
+<p><strong>DESCRIPTION</strong></p>
+<p>Anyone with a sweet tooth knows that the much-beloved Mysore Pak broadly comes in two varieties — the “wet”, ghee-infused, fudgy versions that have come to dominate cities today and the powdery, porous blocks that small stores and restaurants sell from glass jars. This Pallapatti Ghee Mysore Pak is the traditional variant from the 50 years old Haji Mossa shop, Pallapatti near Karur. A delicacy that stands unique with its flavour, texture, these Mysore paks have become an identity for the quain town of Pallapatti. Try this authentic ghee Mysore pak and you will be addicted for sure!</p>
+<p><strong>INGREDIENTS</strong></p>
+<p>Besan flour , Sugar, Ghee.</p>
+<p><strong>SERVING GUIDE</strong></p>
+<p>Store in an airtight container</p>
+<p><strong>SHELF LIFE</strong></p>
+<p>12 days</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://pettikadai.in/products/6579874365621</id>
+      <title>200 gms</title>
+      <s:price currency="INR">260.00</s:price>
+      <s:sku>SPH001</s:sku>
+      <s:grams>350</s:grams>
+    </s:variant>
+  </entry>
+</feed>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://pettikadai.in/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://pettikadai.in/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://pettikadai.in/collections/laddu.atom"/>
+  <title>pettikadai.in</title>
+  <updated>2021-04-05T07:44:59-04:00</updated>
+  <author>
+    <name>pettikadai.in</name>
+  </author>
+  <entry>
+    <id>https://pettikadai.in/products/6579866501301</id>
+    <published>2021-04-05T07:44:59-04:00</published>
+    <updated>2021-04-05T07:44:59-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://pettikadai.in/products/nei-laddu"/>
+    <title>Nei Laddu-நெய் லட்டு</title>
+    <s:type>Veg</s:type>
+    <s:vendor>Shanmuga Nadar</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0537/5249/6309/products/neiladdu.jpg?v=1749048193"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Shanmuga Nadar<br>
+        <strong>Type: </strong>Veg<br>
+        <strong>Price: </strong>
+            210.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h3><strong>This product contains Dairy items and cannot be shipped to EU and UK</strong></h3>
+<h2><strong>This product is not eligible for one-day delivery</strong></h2>
+<p> </p>
+<p>A sweet that has withstood the ravages of time and has come to represent tradition - "Laddu". Made of gram floor, these are combined with sugar and other flavorings, cooked in ghee.</p>
+<p>இந்தியாவின் இனிப்பு திண்பன்டங்களில் லட்டுவே முதன்மையானது. கடலைமாவு, சர்க்கரை மற்றும் நெய் கலந்து செய்யப்படும் இதன் மணம் தூரத்தில் கண்டாலே நம் நாவை சப்பு கொட்ட வைத்துவிடுகின்றன. நெய் மணக்கும் சுவையில் லட்டுவை ருசிக்கையில் நாமும் மெய்மறந்தே போய்விடுகின்றோம்</p>
+<p><strong>SERVING GUIDE</strong></p>
+<p>Store in an airtight container</p>
+<p><strong>SHELF LIFE</strong><br></p>
+<p>12 Days Validity</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://pettikadai.in/products/6579866501301</id>
+      <title>250 gms</title>
+      <s:price currency="INR">210.00</s:price>
+      <s:sku>SSN002</s:sku>
+      <s:grams>350</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://pettikadai.in/products/6579866566837</id>
+    <published>2021-03-13T05:11:08-05:00</published>
+    <updated>2021-03-13T05:11:08-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://pettikadai.in/products/modhi-laddu"/>
+    <title>Modhi Laddu-மோதி லட்டு</title>
+    <s:type>Veg</s:type>
+    <s:vendor>Shanmuga Nadar</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0537/5249/6309/products/Modhiladdu.jpg?v=1749048194"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Shanmuga Nadar<br>
+        <strong>Type: </strong>Veg<br>
+        <strong>Price: </strong>
+            220.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h3><strong>This product contains Dairy items and cannot be shipped to EU and UK</strong></h3>
+<h2><strong>This product is not eligible for one-day delivery</strong></h2>
+<p> </p>
+<p>Modhi laddu is made from fine boondi where the balls are tiny and is cooked with ghee or oil. Originally this laddu was a north Indian sweet, but it is now popular throughout South Asia.</p>
+<p>நாவில் உருகி வழியும் மென்மை தன்மை கொண்டது மோதி லட்டு. கடலை மாவினை வறுத்து சர்க்கரை பாகுடன் கலந்து செய்யப்படும் லட்டை சுவைக்கயில் இனிப்பிற்கான அடையாளமாய் மோதி லட்டு இருப்பதை உணரமுடிகின்றது. நீங்களும் சுவைத்திட நம்ம பெட்டிக்கடையில் இன்றே ஆர்டர் செய்திடுங்கள்.</p>
+<p><strong>SERVING GUIDE</strong></p>
+<p>Store in an airtight container.</p>
+<p><strong>SHELF LIFE</strong><br></p>
+<p>10 Days Validity</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://pettikadai.in/products/6579866566837</id>
+      <title>250 gms</title>
+      <s:price currency="INR">220.00</s:price>
+      <s:sku>SSN003</s:sku>
+      <s:grams>350</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://pettikadai.in/products/6579866009781</id>
+    <published>2021-03-13T05:10:56-05:00</published>
+    <updated>2021-03-13T05:10:56-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://pettikadai.in/products/laddu"/>
+    <title>Laddu-லட்டு</title>
+    <s:type>Veg</s:type>
+    <s:vendor>Sivakasi Velayutha Nadar</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0537/5249/6309/products/laddu.jpg?v=1749048187"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Sivakasi Velayutha Nadar<br>
+        <strong>Type: </strong>Veg<br>
+        <strong>Price: </strong>
+            410.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h3><strong>This product contains Dairy items and cannot be shipped to EU and UK</strong></h3>
+<h2><strong>This product is not eligible for one-day delivery</strong></h2>
+<p> </p>
+<p>A sweet that has withstood the ravages of time and has come to represent tradition - "Laddu". Enjoy delicious Sivakasi representation of this amazing dessert</p>
+<p>இந்திய வீடுகளின் சமையலறையில் இன்ப நிகழ்வுகள் என்றாலே லட்டு செய்திடும் வழக்கம் இருந்தது. கோவில்களிலும் பிரசாதமாக இன்றும் வழங்கப்பட்டு கொண்டிருக்கிறது. இந்திய இனிப்பு வகையில் லட்டுவிற்கே பிராதான இடம். முந்திரியும் நெய்யும் கலந்த கலவையில் சிவகாசியில் தயாரிக்கப்படும் லட்டுக்களை சுவைத்த பின்பும் நம் நாவில் அதன் சுவையின் அதிர்வலைகளை ஏற்படுத்திக்கொண்டே இருக்கின்றன. நீங்களும் சுவைத்திட நம்ம பெட்டிக்கடையில் இன்றே ஆர்டர் செய்திடுங்கள்.</p>
+<p><strong>INGREDIENTS</strong></p>
+<p>Besan Flour, Sugar Syrup, Food Colours, Badam Powder, Sugar syrup, Elachi Powder</p>
+<p><strong>SERVING GUIDE</strong></p>
+<p>Store in an airtight container</p>
+<p><strong>SHELF LIFE</strong></p>
+<p>12 Days Validity</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://pettikadai.in/products/6579866009781</id>
+      <title>500 gms</title>
+      <s:price currency="INR">410.00</s:price>
+      <s:sku>SVN003-01</s:sku>
+      <s:grams>500</s:grams>
+    </s:variant>
+  </entry>
+</feed>

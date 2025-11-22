@@ -1,0 +1,50 @@
+{
+    "version": 2,
+    "name": "gkr-sweets",
+    "builds": [
+        {
+            "src": "*.html",
+            "use": "@vercel/static"
+        },
+        {
+            "src": "pettikadai.in/**",
+            "use": "@vercel/static"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/index.html"
+        },
+        {
+            "src": "/admin",
+            "dest": "/admin.html"
+        },
+        {
+            "src": "/auth",
+            "dest": "/auth.html"
+        },
+        {
+            "handle": "filesystem"
+        }
+    ],
+    "headers": [
+        {
+            "source": "/(.*)",
+            "headers": [
+                {
+                    "key": "X-Content-Type-Options",
+                    "value": "nosniff"
+                },
+                {
+                    "key": "X-Frame-Options",
+                    "value": "DENY"
+                },
+                {
+                    "key": "X-XSS-Protection",
+                    "value": "1; mode=block"
+                }
+            ]
+        }
+    ]
+}

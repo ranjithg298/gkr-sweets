@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - GKR Sweets</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            background: linear-gradient(135deg, #6b1383 0%, #c41cc8 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .admin-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .admin-header {
+            background: linear-gradient(135deg, #6b1383 0%, #8f19b0 100%);
+            color: white;
+            padding: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .admin-header h1 {
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logout-btn {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .logout-btn:hover {
+            background: white;
+            color: #6b1383;
+        }
+
+        .admin-content {
+            padding: 40px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            color: #6b1383;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .upload-section {
+            background: #f5f5f5;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            font-family: 'Lato', sans-serif;
+            transition: all 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #6b1383;
+            box-shadow: 0 0 0 3px rgba(107, 19, 131, 0.1);
+        }
+
+        .file-upload-area {
+            border: 3px dashed #6b1383;
+            border-radius: 12px;
+            padding: 40px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: white;
+        }
+
+        .file-upload-area:hover {
+            background: #f9f9f9;
+            border-color: #8f19b0;
+        }
+
+        .file-upload-area.dragover {
+            background: #e6d9ed;
+            border-color: #8f19b0;
+        }
+
+        .upload-icon {
+            font-size: 48px;
+            color: #6b1383;
+            margin-bottom: 15px;
+        }
+
+        .upload-text {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .upload-hint {
+            font-size: 14px;
+            color: #999;
+        }
+
+        .preview-area {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .preview-item {
+            position: relative;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .preview-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .preview-item .remove-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: rgba(255, 0, 0, 0.8);
+            color: white;
+            border: none;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        .preview-item .remove-btn:hover {
+            background: rgba(255, 0, 0, 1);
+        }
+
+        .btn {
+            padding: 14px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #6b1383 0%, #8f19b0 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(107, 19, 131, 0.3);
+        }
+
+        .btn-primary:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .product-card {
+            background: #f9f9f9;
+            border-radius: 12px;
+            padding: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .product-card h3 {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        .product-card .product-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .product-card .btn-small {
+            padding: 8px 15px;
+            font-size: 12px;
+            flex: 1;
+        }
+
+        .message {
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: none;
+        }
+
+        .message.success {
+            background: #e6f7e6;
+            color: #2e7d32;
+            border: 1px solid #2e7d32;
+        }
+
+        .message.error {
+            background: #ffe6e6;
+            color: #d32f2f;
+            border: 1px solid #d32f2f;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .loading.active {
+            display: block;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #6b1383;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .protected {
+            display: none;
+        }
+
+        .protected.active {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="admin-container">
+        <div class="admin-header">
+            <h1>🍬 GKR Sweets Admin Panel</h1>
+            <div class="user-info">
+                <span id="user-email">Loading...</span>
+                <button class="logout-btn" id="logout-btn">Logout</button>
+            </div>
+        </div>
+
+        <div class="admin-content protected" id="admin-content">
+            <div class="message" id="message"></div>
+
+            <!-- Upload New Product -->
+            <section class="upload-section">
+                <h2 class="section-title">Upload New Product</h2>
+
+                <form id="upload-form">
+                    <div class="form-group">
+                        <label for="product-name">Product Name</label>
+                        <input type="text" id="product-name" placeholder="e.g., Mysore Pak" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="product-category">Category</label>
+                        <select id="product-category" required>
+                            <option value="">Select Category</option>
+                            <option value="sweets">Sweets</option>
+                            <option value="snacks">Snacks</option>
+                            <option value="mixture">Mixture</option>
+                            <option value="muruku">Muruku</option>
+                            <option value="halwa">Halwa</option>
+                            <option value="laddu">Laddu</option>
+                            <option value="bakery">Bakery</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="product-description">Description</label>
+                        <textarea id="product-description" rows="4" placeholder="Product description..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="product-price">Price (₹)</label>
+                        <input type="number" id="product-price" placeholder="0.00" step="0.01" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Product Images</label>
+                        <div class="file-upload-area" id="file-upload-area">
+                            <div class="upload-icon">📸</div>
+                            <div class="upload-text">Click to upload or drag and drop</div>
+                            <div class="upload-hint">PNG, JPG, WEBP up to 5MB each</div>
+                            <input type="file" id="file-input" multiple accept="image/*" style="display: none;">
+                        </div>
+                        <div class="preview-area" id="preview-area"></div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" id="submit-btn">Upload Product</button>
+                </form>
+            </section>
+
+            <!-- Existing Products -->
+            <section>
+                <h2 class="section-title">Manage Products</h2>
+                <div class="loading" id="loading">
+                    <div class="spinner"></div>
+                    <p>Loading products...</p>
+                </div>
+                <div class="products-grid" id="products-grid"></div>
+            </section>
+        </div>
+    </div>
+
+    <script type="module">
+        import {
+            auth,
+            onAuthStateChanged,
+            signOut
+        } from './firebase-config.js';
+
+        import {
+            getStorage,
+            ref,
+            uploadBytes,
+            getDownloadURL,
+            deleteObject
+        } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-storage.js";
+
+        import {
+            getFirestore,
+            collection,
+            addDoc,
+            getDocs,
+            deleteDoc,
+            doc,
+            serverTimestamp
+        } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+
+        const storage = getStorage();
+        const db = getFirestore();
+
+        let selectedFiles = [];
+        let currentUser = null;
+
+        // Auth state observer
+        onAuthStateChanged(auth, (user) => {
+            if (user) {
+                currentUser = user;
+                document.getElementById('user-email').textContent = user.email;
+                document.getElementById('admin-content').classList.add('active');
+                loadProducts();
+            } else {
+                window.location.href = 'auth.html';
+            }
+        });
+
+        // Logout
+        document.getElementById('logout-btn').addEventListener('click', async () => {
+            try {
+                await signOut(auth);
+                window.location.href = 'auth.html';
+            } catch (error) {
+                console.error('Logout error:', error);
+            }
+        });
+
+        // File upload handling
+        const fileUploadArea = document.getElementById('file-upload-area');
+        const fileInput = document.getElementById('file-input');
+        const previewArea = document.getElementById('preview-area');
+
+        fileUploadArea.addEventListener('click', () => fileInput.click());
+
+        fileUploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            fileUploadArea.classList.add('dragover');
+        });
+
+        fileUploadArea.addEventListener('dragleave', () => {
+            fileUploadArea.classList.remove('dragover');
+        });
+
+        fileUploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            fileUploadArea.classList.remove('dragover');
+            handleFiles(e.dataTransfer.files);
+        });
+
+        fileInput.addEventListener('change', (e) => {
+            handleFiles(e.target.files);
+        });
+
+        function handleFiles(files) {
+            Array.from(files).forEach(file => {
+                if (file.type.startsWith('image/') && file.size <= 5 * 1024 * 1024) {
+                    selectedFiles.push(file);
+                    displayPreview(file);
+                } else {
+                    showMessage('error', 'Please upload images only (max 5MB each)');
+                }
+            });
+        }
+
+        function displayPreview(file) {
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                const previewItem = document.createElement('div');
+                previewItem.className = 'preview-item';
+                previewItem.innerHTML = `
+                    <img src="${e.target.result}" alt="Preview">
+                    <button class="remove-btn" onclick="removeFile('${file.name}')">×</button>
+                `;
+                previewArea.appendChild(previewItem);
+            };
+            reader.readAsDataURL(file);
+        }
+
+        window.removeFile = function (fileName) {
+            selectedFiles = selectedFiles.filter(f => f.name !== fileName);
+            loadPreview();
+        };
+
+        function loadPreview() {
+            previewArea.innerHTML = '';
+            selectedFiles.forEach(file => displayPreview(file));
+        }
+
+        // Upload form submission
+        document.getElementById('upload-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            if (selectedFiles.length === 0) {
+                showMessage('error', 'Please select at least one image');
+                return;
+            }
+
+            const submitBtn = document.getElementById('submit-btn');
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Uploading...';
+
+            try {
+                const productName = document.getElementById('product-name').value;
+                const category = document.getElementById('product-category').value;
+                const description = document.getElementById('product-description').value;
+                const price = document.getElementById('product-price').value;
+
+                // Upload images to Firebase Storage
+                const imageUrls = [];
+                for (const file of selectedFiles) {
+                    const storageRef = ref(storage, `products/${Date.now()}_${file.name}`);
+                    await uploadBytes(storageRef, file);
+                    const url = await getDownloadURL(storageRef);
+                    imageUrls.push(url);
+                }
+
+                // Save product to Firestore
+                await addDoc(collection(db, 'products'), {
+                    name: productName,
+                    category: category,
+                    description: description,
+                    price: parseFloat(price),
+                    images: imageUrls,
+                    createdBy: currentUser.email,
+                    createdAt: serverTimestamp()
+                });
+
+                showMessage('success', 'Product uploaded successfully!');
+
+                // Reset form
+                document.getElementById('upload-form').reset();
+                selectedFiles = [];
+                previewArea.innerHTML = '';
+
+                // Reload products
+                loadProducts();
+            } catch (error) {
+                console.error('Upload error:', error);
+                showMessage('error', 'Failed to upload product: ' + error.message);
+            } finally {
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Upload Product';
+            }
+        });
+
+        // Load products
+        async function loadProducts() {
+            const loading = document.getElementById('loading');
+            const productsGrid = document.getElementById('products-grid');
+
+            loading.classList.add('active');
+            productsGrid.innerHTML = '';
+
+            try {
+                const querySnapshot = await getDocs(collection(db, 'products'));
+
+                if (querySnapshot.empty) {
+                    productsGrid.innerHTML = '<p style="text-align: center; color: #999;">No products yet. Upload your first product!</p>';
+                } else {
+                    querySnapshot.forEach((doc) => {
+                        const product = doc.data();
+                        const productCard = createProductCard(doc.id, product);
+                        productsGrid.appendChild(productCard);
+                    });
+                }
+            } catch (error) {
+                console.error('Error loading products:', error);
+                showMessage('error', 'Failed to load products');
+            } finally {
+                loading.classList.remove('active');
+            }
+        }
+
+        function createProductCard(id, product) {
+            const card = document.createElement('div');
+            card.className = 'product-card';
+            card.innerHTML = `
+                <img src="${product.images[0]}" alt="${product.name}">
+                <h3>${product.name}</h3>
+                <p style="color: #666; font-size: 14px; margin-bottom: 5px;">${product.category}</p>
+                <p style="color: #6b1383; font-weight: bold; font-size: 18px;">₹${product.price}</p>
+                <div class="product-actions">
+                    <button class="btn btn-primary btn-small" onclick="viewProduct('${id}')">View</button>
+                    <button class="btn btn-small" style="background: #dc3545; color: white;" onclick="deleteProduct('${id}', '${product.images[0]}')">Delete</button>
+                </div>
+            `;
+            return card;
+        }
+
+        window.viewProduct = function (id) {
+            // Implement view/edit functionality
+            alert('View/Edit functionality coming soon!');
+        };
+
+        window.deleteProduct = async function (id, imageUrl) {
+            if (!confirm('Are you sure you want to delete this product?')) return;
+
+            try {
+                // Delete from Firestore
+                await deleteDoc(doc(db, 'products', id));
+
+                showMessage('success', 'Product deleted successfully!');
+                loadProducts();
+            } catch (error) {
+                console.error('Delete error:', error);
+                showMessage('error', 'Failed to delete product');
+            }
+        };
+
+        function showMessage(type, text) {
+            const message = document.getElementById('message');
+            message.className = `message ${type}`;
+            message.textContent = text;
+            message.style.display = 'block';
+
+            setTimeout(() => {
+                message.style.display = 'none';
+            }, 5000);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://pettikadai.in/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://pettikadai.in/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://pettikadai.in/collections/millet-sweets.atom"/>
+  <title>pettikadai.in</title>
+  <updated>2024-02-02T05:09:03-05:00</updated>
+  <author>
+    <name>pettikadai.in</name>
+  </author>
+  <entry>
+    <id>https://pettikadai.in/products/7700261798103</id>
+    <published>2024-02-02T05:09:03-05:00</published>
+    <updated>2024-02-02T05:09:03-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://pettikadai.in/products/kovilpatti-sesame-ball"/>
+    <title>Kovilpatti Sesame Ball-கோவில்பட்டி எள்ளு உருண்டை</title>
+    <s:type>Veg</s:type>
+    <s:vendor>RRK Sweets</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0537/5249/6309/products/elluurundai.jpg?v=1672645591"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>RRK Sweets<br>
+        <strong>Type: </strong>Veg<br>
+        <strong>Price: </strong>
+            280.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h2><br></h2>
+<p> </p>
+<p>Sesame laddu made with black sesame seeds, roasted peanuts and jaggery. Very special sweet in the kongunadu region. Sesame is an important seed used in Tamilnadu cuisine. Sesame and its oil is very traditional in this part of the world. Ellu Urundai is a kongunadu special sweet made with sesame as its main ingredient. Its really healthy and has very minimal ingredients. The Ellu Urundai from Pettikadai is made by traditional method using ural ulakkai (wooden mortar-pestle used for pounding grains).</p>
+<p><strong>Health Benefits</strong><br>Ellu urundai is extremely nutritious as sesame contains several B vitamins, iron, magnesium, calcium, phosphorus, and zinc. Many articles also suggest that sesame consumption may help in small reductions in both systolic and diastolic blood pressure.</p>
+<h3>
+<strong>INGREDIENTS</strong> </h3>
+<p>Black Sesame seeds, Roasted peanuts and jaggery.</p>
+<p>Store in a clean dry jar or airtight container.</p>
+<p><strong>SHELF LIFE</strong></p>
+<p>60 days</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://pettikadai.in/products/7700261798103</id>
+      <title>300 gms</title>
+      <s:price currency="INR">280.00</s:price>
+      <s:sku>SRK016</s:sku>
+      <s:grams>400</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://pettikadai.in/products/7575249453271</id>
+    <published>2022-03-22T06:32:05-04:00</published>
+    <updated>2022-03-22T06:32:05-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://pettikadai.in/products/country-sugar-coconut-burfi"/>
+    <title>Country Sugar Coconut Burfi-நாட்டு சர்க்கரை தேங்காய்  பர்பி</title>
+    <s:type>Veg</s:type>
+    <s:vendor>Pettikadai</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0537/5249/6309/files/KonguSpldatesburfi.jpg?v=1759161109"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Pettikadai<br>
+        <strong>Type: </strong>Veg<br>
+        <strong>Price: </strong>
+            220.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; line-height: normal; mso-outline-level: 3;" class="MsoNormal"><b><span style="font-size: 13.5pt; font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: EN-IN;">This product contains Dairy items and cannot be shipped to EU and UK</span></b></p>
+<h1>Country Sugar Coconut Burfi</h1>
+<p><span>Kongu Spl Dates Burfi is a delectable South Indian sweet treat that perfectly blends the wholesome goodness of dates and coconut with the richness of ghee and cashews. This traditional burfi is sweetened with country sugar, giving it a unique flavor profile that is both earthy and sweet. The aromatic cardamom enhances the overall taste, while the dried grapes provide little pockets of sweetness throughout the burfi.</span></p>
+<h2><strong>INGREDIENTS</strong></h2>
+<p>Coconut, Country Sugar,Ghee, Dates, <span>Cashew,Caradamom,Grapes</span></p>
+<p> </p>
+<h2><strong>SHELF LIFE</strong></h2>
+<p>30 days</p>
+<pre dir="ltr" id="tw-target-text" data-placeholder="Translation" class="tw-data-text tw-text-large tw-ta"><span lang="en" class="Y2IQFc"><br></span></pre>
+<pre dir="ltr" id="tw-target-text" data-placeholder="Translation" class="tw-data-text tw-text-large tw-ta"><br></pre></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://pettikadai.in/products/7575249453271</id>
+      <title>250 gms</title>
+      <s:price currency="INR">220.00</s:price>
+      <s:sku>BPP003</s:sku>
+      <s:grams>350</s:grams>
+    </s:variant>
+  </entry>
+</feed>

@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://pettikadai.in/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://pettikadai.in/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://pettikadai.in/collections/groceries.atom"/>
+  <title>pettikadai.in</title>
+  <updated>2024-05-09T10:34:19-04:00</updated>
+  <author>
+    <name>pettikadai.in</name>
+  </author>
+  <entry>
+    <id>https://pettikadai.in/products/8486400229591</id>
+    <published>2024-05-09T10:34:19-04:00</published>
+    <updated>2024-05-09T10:34:19-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://pettikadai.in/products/rose-milk-syrup"/>
+    <title>Rose Milk Syrup</title>
+    <s:type>Natural</s:type>
+    <s:vendor>Pettikadai</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0537/5249/6309/files/Untitleddesign_74.png?v=1743424448"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Pettikadai<br>
+        <strong>Type: </strong>Natural<br>
+        <strong>Price: </strong>
+            300.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h3 data-start="135" data-end="185"><strong data-start="139" data-end="183">Why Choose Pettikadai's Rose Milk Syrup?</strong></h3>
+<p data-start="187" data-end="297">✅ <strong data-start="189" data-end="221">Made with 100% Natural Roses</strong><br data-start="221" data-end="224">🟢 No artificial colors<br data-start="247" data-end="250">🟢 No synthetic flavors<br data-start="273" data-end="276">🟢 No preservatives</p>
+<p data-start="299" data-end="403">🚫 <strong data-start="302" data-end="320">No Rhodamine B</strong><br data-start="320" data-end="323">❌ No harmful additives<br data-start="345" data-end="348">❌ No synthetic chemicals<br data-start="372" data-end="375">❌ No artificial sweeteners</p>
+<p>At Pettikadai, we believe in bringing you the finest natural ingredients in every drop. Our Rose Milk Syrup is a blend of premium Damascus rose petals, Rhododendron flower extract, and palm sugar syrup, offering a truly indulgent and healthful experience.</p>
+<p><br><strong>Ingredients and Health Benefits:</strong></p>
+<p><strong>Indian Damascus Rose Petals</strong>: Rich in antioxidants and essential vitamins, Damascus rose petals provide a delicate floral flavor and promote skin health and overall well-being.</p>
+<p><strong>Rhododendron Flower Extract</strong>: Known for its anti-inflammatory properties and immune-boosting benefits, Rhododendron flower extract adds depth to our syrup while supporting your body's natural defenses.</p>
+<p><strong>Palm Sugar Syrup:</strong> A healthier alternative to refined sugar, palm sugar syrup provides a subtle sweetness with a low glycemic index, making it suitable for those monitoring their blood sugar levels</p>
+<p><strong>Serving Suggestions:</strong></p>
+<p>Mix 2-3 table spoons  Rose Milk Syrup with a glass of chilled milk for a refreshing drink.<br>Use as a topping for desserts like ice cream, yogurt, or pancakes.<br>Create floral-inspired cocktails and mocktails by adding a splash of Rose Milk Syrup to your favorite beverages.</p>
+<p><br><strong>Storage Instructions:</strong><br>Store in a cool, dry place. Refrigerate after opening for extended freshness. Use within 1 month after opening.<br></p>
+<p><strong>SHELF LIFE</strong></p>
+<p>12 months</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://pettikadai.in/products/8486400229591</id>
+      <title>300 ml</title>
+      <s:price currency="INR">300.00</s:price>
+      <s:sku>GRA006</s:sku>
+      <s:grams>500</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://pettikadai.in/products/8486031491287</id>
+    <published>2024-05-09T02:48:01-04:00</published>
+    <updated>2024-05-09T02:48:01-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://pettikadai.in/products/honey-rose-gulkand"/>
+    <title>Honey Rose Gulkand</title>
+    <s:type>Natural</s:type>
+    <s:vendor>Pettikadai</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0537/5249/6309/files/Untitled_design_29.png?v=1724049691"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Pettikadai<br>
+        <strong>Type: </strong>Natural<br>
+        <strong>Price: </strong>
+            395.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>A sweet rose preserve, Pettikadai's Rose gulkand is a labour of love. Made exclusively with the Indian demask rose petals which blossom only twice a year, these natural Kodaikanal forest wonders are collected by the local tribals. Rose petals, organic Khus khus, dried black grapes, cucumber seeds and raw wild honey are sun cooked for over a period of 48 days. A powerful antioxidant and anti-inflammatory, a teaspoon of gulkand in warm milk before sleep is just the thing for a restful sleep. Make your everyday a little more healthier with our Gulkand!</p>
+<p><strong>INGREDIENTS</strong></p>
+<p> Indian Damask Rose Petals, Khus Khus, Cucumber Seeds, Raw Wild Honey, Dry Black Grapes<strong></strong></p>
+<p><strong>HOW CAN YOU USE ?</strong></p>
+<p>1. As it is 2. Whip it up with Cold Cow Milk</p>
+<p><strong>SHELF LIFE</strong></p>
+<p>6 Months</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://pettikadai.in/products/8486031491287</id>
+      <title>300 gm</title>
+      <s:price currency="INR">395.00</s:price>
+      <s:sku>GRA005</s:sku>
+      <s:grams>550</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://pettikadai.in/products/7806890180823</id>
+    <published>2022-09-30T13:57:54-04:00</published>
+    <updated>2022-09-30T13:57:54-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://pettikadai.in/products/a2-desi-cow-ghee"/>
+    <title>INDIAN NATIVE COW GHEE</title>
+    <s:type>Natural</s:type>
+    <s:vendor>Vibis Honey Bee Farm</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0537/5249/6309/files/A2desicowghee.png?v=1715858318"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Vibis Honey Bee Farm<br>
+        <strong>Type: </strong>Natural<br>
+        <strong>Price: </strong>
+            790.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h3><strong>This product contains Dairy items and cannot be shipped to EU and UK</strong></h3>
+<h2><strong>Discover the Pure Goodness of Pettikadai Cow Ghee</strong></h2>
+<p><span>Welcome to Pettikadai, where we bring you something truly special – our Cow Ghee. We believe in keeping things simple, pure, and close to our roots. Let's dive into what makes our ghee unique.</span></p>
+<h2><br></h2>
+<h2><strong>Quality and Purity</strong></h2>
+<p><span> Pettikadai A2 Desi Cow Ghee is all about top-notch quality. We get our milk from Desi cows known for their A2 goodness. These cows roam freely on natural pastures, giving us the purest milk without any funny business. No shortcuts, just genuine, high-quality ingredients.</span></p>
+<h2><span><strong>Crafted the Old-Fashioned Way:</strong> </span></h2>
+<p><span>We like to do things the way our grandparents did – with love and care. Our ghee is made in small batches using traditional methods. Skilled hands carefully turn the pure milk into ghee, preserving its natural richness and aroma. No fancy machines, just the warmth of tradition.</span></p>
+<h2><strong>Authentic Ghee-Making Process in four simple steps :</strong></h2>
+<ul>
+<li>Boil Raw A2 Milk</li>
+<li>Make Curd using a Mudpot</li>
+<li>Separate Butter from Curd using a wooden churner</li>
+<li>Convert Butter to Pure Ghee using Brass bowls and pack </li>
+</ul>
+<h2>Traditional Goodness:</h2>
+<p>In a world that's always in a rush, we find comfort in doing things the traditional way. Pettikadai A2 Desi Cow Ghee is a nod to the recipes that have stood the test of time. It's not just food; it's a journey back to the simple, wholesome goodness our grandparents enjoyed.</p>
+<h2><strong>Why Pettikadai Ghee?</strong></h2>
+<ul>
+<li>
+<strong>Real and Honest:</strong> We're all about being genuine. Our ghee is made authentically, just like it should be.</li>
+<li>
+<strong>Pure Goodness</strong>: No additives or tricks – just the pure goodness of A2 Desi Cow Ghee.</li>
+<li>
+<strong>Health Boost: </strong>A2 Desi Cow Ghee has some great health benefits. We're here to share those benefits with you, the way nature intended.</li>
+</ul>
+<ol></ol>
+<ol></ol>
+<h2>
+<strong>Shelf Life:</strong><span> </span>
+</h2>
+<p>Experience the pure goodness for an extended 24 months.</p>
+<h2><br></h2>
+<h2>Health Benefits:</h2>
+<p><span>Revel in potential digestive aids, enhanced nutrient absorption, and reduced digestive issues for improved overall health.</span></p>
+<h2>FAQs:</h2>
+<h3>      1.What is A2 Desi Cow Ghee?   </h3>
+<p>    A type of clarified butter made from the milk of cows that produce A2 beta-casein protein, commonly found in native Indian breeds like Gir, Sahiwal, and Red Sindhi cows.            </p>
+<h3>     2. Is A2 Desi Cow Ghee lactose-free?   </h3>
+<p>   While not completely lactose-free, the ghee-making process removes most of the lactose.</p>
+<h2>Explore Our Range:</h2>
+<ul>
+<li><a href="https://pettikadai.in/collections/buy-edible-oils-ghee-online/products/coconut-oil-1l-wood-pressed">Coconut Oil</a></li>
+<li><a href="https://pettikadai.in/collections/buy-edible-oils-ghee-online/products/gingelly-oil-1l-vagai-wood-cold-pressed">Sesame Oil</a></li>
+<li><a href="https://pettikadai.in/collections/buy-edible-oils-ghee-online/products/groundnut-oil-1l-wood-pressed">Groundnut Oil</a></li>
+</ul>
+<p>Experience the pure goodness of A2 Desi Cow Ghee - order now for a wholesome culinary journey.</p>
+<h2>What makes shopping from pettikadai.in special?</h2>
+<ul>
+<li><strong>Authentic Delights🌟 </strong></li>
+<li><strong>Global Accessibility 🌍</strong></li>
+<li><strong>Quality Assurance ✨</strong></li>
+<li><strong>Culinary Heritage 🍲</strong></li>
+<li><strong>Easy Online Shopping 🛒</strong></li>
+</ul>
+<p><br></p>
+<p><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://pettikadai.in/products/7806890180823</id>
+      <title>500ml</title>
+      <s:price currency="INR">790.00</s:price>
+      <s:sku>GRA004</s:sku>
+      <s:grams>700</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://pettikadai.in/products/6579871449269</id>
+    <published>2021-03-22T05:28:20-04:00</published>
+    <updated>2021-03-22T05:28:20-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://pettikadai.in/products/gingelly-oil-1l-vagai-wood-cold-pressed"/>
+    <title>Sesame / Gingelly Oil 1L -Pettikadai Wood Pressed</title>
+    <s:type>Natural</s:type>
+    <s:vendor>Pettikadai</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0537/5249/6309/files/Traditional_Filter_Coffee_Ready_in_10_Seconds_1_e0fd9b88-fdcb-4033-bfce-fe241aef2084.png?v=1750667706"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Pettikadai<br>
+        <strong>Type: </strong>Natural<br>
+        <strong>Price: </strong>
+            470.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>- Extracted in Wooden Chekku/Ghani.<br> - Palm Jaggery added during extraction.<br> - Helps lower the level of bad cholesterol and thereby, promotes good heart health.<br> - Good for your skin &amp; eyes.<br> - Helps in digestion of food<br> - Suits best for oil pulling</p>
+<p><strong>SERVING GUIDE</strong></p>
+<p>Store in a stainless steel container. After a month, place under sunlight for a couple of hours, to bring back the flavor.</p>
+<p><strong>SHELF LIFE</strong><br></p>
+<p>6 Months</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://pettikadai.in/products/6579871449269</id>
+      <title>1 L</title>
+      <s:price currency="INR">470.00</s:price>
+      <s:sku>GRA003</s:sku>
+      <s:grams>1000</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://pettikadai.in/products/6580020215989</id>
+    <published>2021-03-13T07:02:55-05:00</published>
+    <updated>2021-03-13T07:02:55-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://pettikadai.in/products/coconut-oil-1l-wood-pressed"/>
+    <title>Coconut Oil 1L- Pettikadai Wood Pressed</title>
+    <s:type>Natural</s:type>
+    <s:vendor>Pettikadai</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0537/5249/6309/products/CoconutOil.jpg?v=1674038228"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Pettikadai<br>
+        <strong>Type: </strong>Natural<br>
+        <strong>Price: </strong>
+            560.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><style type="text/css" data-mce-fragment="1"><!--
+td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}
+--></style>
+<p><span data-sheets-value='{"1":2,"2":"Pure without any additives and preservatives\n\nFREE from SULPHUR and other chemicals\n\nCan be used for cooking , Hair and Skin\nStore in a stainless steel container. After a month, place under sunlight for a couple of hours, to bring back the flavor. \n3 Months\n"}' data-sheets-userformat='{"2":14722,"4":{"1":2,"2":16777215},"10":2,"11":0,"14":{"1":2,"2":655617},"15":"Verdana","16":10}' data-mce-fragment="1">Pure without any additives and preservatives<br data-mce-fragment="1"><br data-mce-fragment="1">FREE from SULPHUR and other chemicals<br data-mce-fragment="1"><br data-mce-fragment="1">Can be used for cooking , Hair and Skin</span></p>
+<p><strong>SERVING GUIDE</strong></p>
+<p><span data-sheets-value='{"1":2,"2":"Pure without any additives and preservatives\n\nFREE from SULPHUR and other chemicals\n\nCan be used for cooking , Hair and Skin\nStore in a stainless steel container. After a month, place under sunlight for a couple of hours, to bring back the flavor. \n3 Months\n"}' data-sheets-userformat='{"2":14722,"4":{"1":2,"2":16777215},"10":2,"11":0,"14":{"1":2,"2":655617},"15":"Verdana","16":10}' data-mce-fragment="1">Store in a stainless steel container. After a month, place under sunlight for a couple of hours, to bring back the flavor.</span></p>
+<p><strong>SHELF LIFE</strong></p>
+<p><span data-sheets-value='{"1":2,"2":"Pure without any additives and preservatives\n\nFREE from SULPHUR and other chemicals\n\nCan be used for cooking , Hair and Skin\nStore in a stainless steel container. After a month, place under sunlight for a couple of hours, to bring back the flavor. \n3 Months\n"}' data-sheets-userformat='{"2":14722,"4":{"1":2,"2":16777215},"10":2,"11":0,"14":{"1":2,"2":655617},"15":"Verdana","16":10}' data-mce-fragment="1">6 Months<br data-mce-fragment="1"></span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://pettikadai.in/products/6580020215989</id>
+      <title>1 L</title>
+      <s:price currency="INR">560.00</s:price>
+      <s:sku>GRA0021</s:sku>
+      <s:grams>1200</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://pettikadai.in/products/6579874103477</id>
+    <published>2021-03-13T05:13:34-05:00</published>
+    <updated>2021-03-13T05:13:34-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://pettikadai.in/products/groundnut-sekku-oil"/>
+    <title>Groundnut Oil 1L -Pettikadai Wood Pressed</title>
+    <s:type>Natural</s:type>
+    <s:vendor>Pettikadai</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0537/5249/6309/products/GroundnutOil.jpg?v=1715858489"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Pettikadai<br>
+        <strong>Type: </strong>Natural<br>
+        <strong>Price: </strong>
+            360.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Wood Pressed Groundnut oil is manufactured by the old traditional method by using wooden chekku (Marachekku in Tamil).</p>
+<p>These Oils contain all the original nutrition and flavor.<br>Also called as Marachekku kadalai ennai.</p>
+<p>It has highest smoking point, is its best suited for deep frying and cooking.</p>
+<h2>Why wood Pressed Oil?</h2>
+<p><br>When oils are heated, their molecular structure is compromised, creating carcinogenic free radicals. Oils that are heated, when ingested, can contribute to cardiovascular disease and difficulty of the blood to efficiently transport oxygen.<br>Truly cold pressed oils will maintain their nutrient profile, their fats will remain uncorrupted, they taste amazing and they last long.</p>
+<h2><strong>SERVING GUIDE</strong></h2>
+<p>Store in a stainless steel container. After a month, place under sunlight for a couple of hours, to bring back the flavor.</p>
+<h2><strong>SHELF LIFE</strong></h2>
+<p>6 Months</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://pettikadai.in/products/6579874103477</id>
+      <title>1 L</title>
+      <s:price currency="INR">360.00</s:price>
+      <s:sku>GRA001</s:sku>
+      <s:grams>1300</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://pettikadai.in/products/6579872530613</id>
+    <published>2021-03-13T05:13:05-05:00</published>
+    <updated>2021-03-13T05:13:05-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://pettikadai.in/products/panam-kalkandu"/>
+    <title>Palm Candy (Panankarkandu) - பனங்கற்கண்டு</title>
+    <s:type>Veg</s:type>
+    <s:vendor>Tiruchendur</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0537/5249/6309/products/panamKalkandu.jpg?v=1749048280"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Tiruchendur<br>
+        <strong>Type: </strong>Veg<br>
+        <strong>Price: </strong>
+            320.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><strong>Palm Sugar Candy</strong> also known as PanamKalkandu or Panankarkandu or Panankalkandu is an organic sweetener that is made from the flowers of the coconut palm trees. <span>Panakarkandu </span>is better than refined sugar in every way as it does not contain any chemical additives. It is also rich in nutrients- vitamins and minerals. It has numerous health benefits and is good for both children and adults. <br></p>
+<p>It has been used for centuries to make traditional Indian dishes. It has high vitamin and mineral content and also has antioxidants. It has become massively popular in the last few years globally because it contains a low glycemic index (GI). It also contains 16 amino acids that are considered to be the building blocks of protein. All these reasons contribute to the fact that PanamKalkandu is really good for health. It has been incorporated to create many innovative desserts such as ice creams, baked goods, puddings, panna cottas, and so on. It can be used as a substitute for refined sugar. It can be used in various desserts and beverages as it is a healthier alternative. </p>
+<p>Buy 100% natural PanamKalkandu Online and start using it today!</p>
+<p>It has more nutrients when compared to refined sugar, which makes it a better substitute for the latter.</p>
+<p>Nutrition Facts for one serving of Palm Sugar Candy are as follows:</p>
+<p><strong>• Calories</strong> 18- Calories from Fat 0</p>
+<p><strong>• Total Fat</strong> 0 grams- <strong>0</strong>% (Daily value)</p>
+<p><strong>• Sodium</strong> 0.1 milligrams- <strong>0</strong>%</p>
+<p><strong>• Potassium</strong> 1.3 milligrams- <strong>0</strong>%</p>
+<p><strong>• Total Carbohydrates</strong> 4.6 grams- <strong>2</strong>%</p>
+<p><strong>• Sugars</strong> 4.6 grams</p>
+<p><strong>• Protein</strong> 0 grams</p>
+<p><strong>• Calcium</strong>- 0%</p>
+<p><strong>• Iron</strong>- 0.1%</p>
+<p> </p>
+<h3><strong>FAQs:</strong></h3>
+<h5>Panakarkandu in English is Palm Candy or Palm Sugar, Its produced in Palm tree (panai maram), this is maximum found Tamil Nadu and surrounding areas. </h5>
+<ul>
+<li><strong>Is PanamKalkandu good for health?</strong></li>
+</ul>
+<p>Yes, it is very good for health as it is rich in vitamins, minerals, contains amino acids, and has a low glycemic index.</p>
+<ul>
+<li><strong>Where can we use PanamKalkandu?</strong></li>
+</ul>
+<p>PanamKalkandu can be used in a lot of dishes as a sweetener and as a replacement for refined sugar.</p>
+<ul>
+<li><strong>Is PanamKalkandu organic?</strong></li>
+</ul>
+<p>Yes, it is 100% natural &amp; organic. It is made from the flower buds of the coconut palm tree without the presence of any chemicals.</p>
+<ul>
+<li><strong>Is PanamKalkandu better than refined sugar?</strong></li>
+</ul>
+<p>Yes, it is better than refined sugar as it has a lot of nutrients and has no chemicals added to it.</p>
+<ul>
+<li><strong>How can I Buy PanamKalkandu Online from Pettikadai?</strong></li>
+</ul>
+<p>Go to our website and type in ‘PanamKalkandu’ in the search box and click on the search button. Choose the required quantity and click on the 'Add to Cart' button. 'In Shopping cart', you can either choose to continue shopping or proceed to checkout. To continue with your purchase, you can log into your Pettikadai account. Once the cart is all set, proceed to checkout, submit your shipping address, select the desired payment process, and confirm your order.</p>
+<p><strong>SHELF LIFE</strong><br></p>
+<p>6 months</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://pettikadai.in/products/6579872530613</id>
+      <title>250 gms</title>
+      <s:price currency="INR">320.00</s:price>
+      <s:sku>VKA002-01</s:sku>
+      <s:grams>350</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://pettikadai.in/products/6579871776949</id>
+    <published>2021-03-13T05:12:51-05:00</published>
+    <updated>2021-03-13T05:12:51-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://pettikadai.in/products/karupatti"/>
+    <title>Karupatti-100% Pure &amp; Authentic</title>
+    <s:type>Veg</s:type>
+    <s:vendor>Vembar</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0537/5249/6309/files/Karupatti_5.png?v=1749048268"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Vembar<br>
+        <strong>Type: </strong>Veg<br>
+        <strong>Price: </strong>
+            280.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p dir="ltr"><span>Our Karupatti (Palm Jaggery) is the perfect healthy alternative to sugar. Pure, natural, and full of traditional sweetness. Order now.</span></p>
+<h2 dir="ltr"><span>What is Karupatti?</span></h2>
+<p dir="ltr"><span>Karupatti, or palm jaggery, is a natural sweetener made from palm sap (Panai Saaru). It is rich in minerals like calcium, iron, and phosphorus. making it a healthier alternative to white sugar. Perfect for sweets, beverages like tea, coffee, payasam, panagam, etc.,</span></p>
+<h2 dir="ltr"><span>Health Benefits</span></h2>
+<p dir="ltr"><span>Unlike refined sugar, Karupatti boosts energy, aids digestion, and adds a deep caramel-like flavor to your dishes.</span></p>
+<h2 dir="ltr"><span> Shelf Life</span></h2>
+<p dir="ltr"><span>It contains no preservatives or artificial flavors yet has a shelf life of up to 12 months when stored in an airtight container in a cool, dry place.</span></p>
+<h2 dir="ltr"><span> Nutritional Value (Per 100g)</span></h2>
+<ul>
+<li aria-level="1" dir="ltr">
+<p role="presentation" dir="ltr"><span>Calories</span><span> – 383 kcal</span></p>
+</li>
+<li aria-level="1" dir="ltr">
+<p role="presentation" dir="ltr"><span>Iron</span><span> – 11 mg (61% RDI)</span></p>
+</li>
+<li aria-level="1" dir="ltr">
+<p role="presentation" dir="ltr"><span>Magnesium</span><span> – 70-90 mg (20% RDI)</span></p>
+</li>
+<li aria-level="1" dir="ltr">
+<p role="presentation" dir="ltr"><span>Potassium</span><span> – 1050 mg (30% RDI)</span></p>
+</li>
+<li aria-level="1" dir="ltr">
+<p role="presentation" dir="ltr"><span>Sucrose</span><span> – 65-85g</span></p>
+</li>
+<li aria-level="1" dir="ltr">
+<p role="presentation" dir="ltr"><span>Fructose &amp; Glucose</span><span> – 10-15g</span></p>
+</li>
+</ul>
+<h2 dir="ltr"><span> Why buy our Karupatti?</span></h2>
+<ul>
+<li aria-level="1" dir="ltr">
+<p role="presentation" dir="ltr"><span>100% natural &amp; chemical-free (Sourced from Vembar, Tamil Nadu, known for its premium-quality palm jaggery.)</span></p>
+</li>
+<li aria-level="1" dir="ltr">
+<p role="presentation" dir="ltr"><span>Pure, clean, and free from dust or impurities</span></p>
+</li>
+<li aria-level="1" dir="ltr">
+<p role="presentation" dir="ltr"><span>Rich in iron &amp; essential minerals</span></p>
+</li>
+<li aria-level="1" dir="ltr">
+<p role="presentation" dir="ltr"><span>Enhances taste &amp; improves health</span></p>
+</li>
+</ul>
+<h2 dir="ltr"><span>How to use Karupatti?</span></h2>
+<ul>
+<li aria-level="1" dir="ltr">
+<p role="presentation" dir="ltr"><span>As a sugar substitute in coffee, tea, herbal tea, milk, payasam and juices.</span></p>
+</li>
+<li aria-level="1" dir="ltr">
+<p role="presentation" dir="ltr"><span>In desserts like Cakes and Brownies</span></p>
+</li>
+<li aria-level="1" dir="ltr">
+<p role="presentation" dir="ltr"><span>In traditional sweets like Mysorepak, Adhirasam and Kolukattai</span></p>
+</li>
+<li aria-level="1" dir="ltr">
+<span>In homemade syrups, panagam, energy drinks, and herbal remedies.</span><span></span>
+</li>
+</ul>
+<h2>
+<span><meta charset="utf-8"> <meta charset="utf-8"> <meta charset="utf-8"></span><span> FAQs about Karupatti</span>
+</h2>
+<h3 dir="ltr"><span>What are the other names of Karupatti?</span></h3>
+<p dir="ltr"><span>Karupatti is also called karupatti vellam, pana karupatti, pana vellam, and palm jaggery.</span></p>
+<h3 dir="ltr"><span>Is Karupatti better than refined sugar?</span></h3>
+<p dir="ltr"><span>Yes! It has more nutrients and is a healthier alternative.</span></p>
+<h3 dir="ltr"><span>Can people with diabetes consume Karupatti?</span></h3>
+<p dir="ltr"><span>It has a lower glycemic index than sugar, but it’s best to consult a doctor before use.</span></p>
+<h3 dir="ltr"><span> Where can I buy Karupatti?</span></h3>
+<p dir="ltr"><span><br></span><span>You can order authentic Karupatti online from </span><span>Pettikadai</span><span>. Simply visit our website, search for 'Palm Jaggery', add it to your cart, and checkout.</span></p>
+<h3 dir="ltr"><span> Why is Karupatti expensive?</span></h3>
+<p dir="ltr"><span>Karupatti is made using traditional methods and is 100% natural, rich in minerals and nutrients. Low-priced versions are often duplicated or adulterated.</span></p>
+<p data-end="1922" data-start="1800"><meta charset="utf-8"><b id="docs-internal-guid-6d74b272-7fff-7ae3-5a26-e4033c8d8cea"><span>Also, explore our ready to eat Karupatti specialty sweets.</span></b><br data-end="1840" data-start="1837">👉<a href="https://pettikadai.in/products/karupatti-kaju-kathli"> Karupatti Kaju Katli </a>|<a href="https://pettikadai.in/products/karupatti-mysore-pak-1"> Karupatti Mysorepak</a> | <a href="https://pettikadai.in/products/karuppatti-sev">Karupatti Se</a>v | <a href="https://pettikadai.in/products/karupatti-mittai">Karupatti Mittai</a></p>
+<p class="" data-end="2014" data-start="1924"><meta charset="utf-8"><b id="docs-internal-guid-cb3fd03c-7fff-e30f-45a0-4946f0f03a80"><span>Order Karupatti now from </span><span>Pettikadai.in!</span></b></p>
+<h2>
+<strong></strong><br>
+</h2>
+<p> </p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://pettikadai.in/products/6579871776949</id>
+      <title>500 gms</title>
+      <s:price currency="INR">280.00</s:price>
+      <s:sku>EVF002</s:sku>
+      <s:grams>800</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://pettikadai.in/products/6579871187125</id>
+    <published>2021-03-13T05:12:42-05:00</published>
+    <updated>2021-03-13T05:12:42-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://pettikadai.in/products/organic-naattu-sakkarai"/>
+    <title>Country Sugar / Naattu Sakkarai 800grams-நாட்டு சர்க்கரை</title>
+    <s:type>Veg</s:type>
+    <s:vendor>Namathu Sandhai</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0537/5249/6309/products/CountrySugar.jpg?v=1749048260"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Namathu Sandhai<br>
+        <strong>Type: </strong>Veg<br>
+        <strong>Price: </strong>
+            100.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Naatu Sarkarai - 1KG Naattu Sakkarai or Organic Sugar is gaining more popularity nowadays as people are striving to lead a natural and healthy life. It is available in most grocery stores but it is also very easy to buy organic naattusakkarai online. Naattusakkarai is produced naturally without the presence of any chemical additives by boiling sugarcane to meet a particular consistency. The grade one naattusakkarai from Pettikadai is produced from the famous sugar cane farms from Erode. The naattusakkarai is the best quality and is better for consumption than white sugar. Its numerous health benefits include- reducing ulcers, improving digestion, and immunity. Buy organic naattusakkarai online to lead a healthy and happy life. What are you waiting for? Start ordering now!</p>
+<p>The Naattu Sakkarai is made using the best sugar canes from the famous sugar cane farms in Erode. It is made naturally without the presence of any adulterants or chemicals. The organic sugar is made by boiling sugar cane juice to meet a particular consistency, which is then poured into a wide container and stirred continuously until it becomes dry. After it is dried, the hard sugar is beaten to form fine particles. The final product is then ready for shipment. To make use of the best quality organic sugar, buy organic naattusakkarai online from Pettikadai.</p>
+<p>Organic Naattu sakkarai can be used as a healthier substitute for white sugar in almost all the dishes. It can be used in coffee, tea, juices, and other beverages. It can be used in many desserts. The traditional Indian desserts were made using naattusakkarai in the olden days. With people trying to lead an organic life, naattusakkarai is witnessing a huge comeback of sorts and has been gaining popularity. You can buy naattusakkarai online from Pettikadai as it is more convenient and has numerous benefits.</p>
+<p>Naattu sakkarai contains more nutrients than refined sugar, therefore it is considered as a healthier alternative for sweet dishes and beverages.</p>
+<p>Nutrition information for organic sugar :</p>
+<p>• Calories : 383</p>
+<p>• Sucrose : 65–85 grams</p>
+<p>• Fructose and glucose : 10–15 grams</p>
+<p>• Protein : 0.4 grams</p>
+<p>• Fat : 0.1 grams</p>
+<p>• Iron : 11 mg, or 61% of the RDI</p>
+<p>• Magnesium : 70-90 mg, or about 20% of the RDI</p>
+<p>• Potassium : 1050 mg, or 30% of the RDI</p>
+<p>• Manganese : 0.2–0.5 mg, or 10–20% of the RDI</p>
+<p> </p>
+<h3><strong>FAQs<br> <br> </strong></h3>
+<p>• <strong>Who can use NaattuSakkarai?</strong></p>
+<p>       Naattusakkarai can be used by anyone- from adults to kids. It can be used as a substitute for refined sugar.</p>
+<p>•  <strong>Is NaattuSakkarai good for health?</strong></p>
+<p>        It is considered a healthier alternative to refined sugar and has a large number of nutrients. It also has numerous health benefits.</p>
+<p>•   <strong>Where can we use Naattu Sakkarai?</strong></p>
+<p>         Naattusakkarai can be used in every dish and beverage that requires refined sugar. It is mostly used in traditional Indian sweets and desserts.</p>
+<p>•    <strong>How is NaattuSakkarai made?<br> </strong>         Naattusakkarai is made by boiling sugar juice to form a particular consistency. It is then dried and beaten down to form the fine particles that are the final product.</p>
+<p>•    <strong>Is NaattuSakkarai organic?</strong></p>
+<p>        Yes, NaattuSakkarai is also called as organic sugar. It is made naturally without the presence of any adulterants or chemical additives.</p>
+<p>•    <strong>Is NaattuSakkarai better than refined sugar?</strong></p>
+<p>         Yes, it is better than refined sugar as it has no chemicals in it. Its nutrient content is also more than that of refined sugar.</p>
+<p>•    <strong>How to Buy NaattuSakkarai Online from Pettikadai?</strong></p>
+<p style="text-align: left;">          Go to our website and type in <strong>'Organic NaattuSakkarai'</strong> in the search box and click on the search button. Choose the required quantity and click on the <strong>'Add to Cart'</strong> button. 'In Shopping cart', you can either choose to continue shopping or proceed to checkout. To continue with your purchase, you can log into your <strong>Pettikadai account</strong>. Once the cart is all set, proceed to checkout, submit your shipping address, select the desired payment process, and confirm your order.</p>
+<p style="text-align: left;"><strong>SHELF LIFE</strong><br></p>
+<p>6 months</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://pettikadai.in/products/6579871187125</id>
+      <title>800gms</title>
+      <s:price currency="INR">100.00</s:price>
+      <s:sku>EVF001</s:sku>
+      <s:grams>980</s:grams>
+    </s:variant>
+  </entry>
+</feed>

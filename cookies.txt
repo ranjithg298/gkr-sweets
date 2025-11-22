@@ -1,0 +1,10 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+pettikadai.in	TRUE	/	FALSE	1999999999	_shopify_analytics	:AZqMs6KtAAEA6NI9Lu_e1NaNJbE3V-gR_pnIIQO-2WClKqfj9E794IiXiUbCHGQCqp8x73_i-EnEzmc9wk1T3P1RAl29PiKqu2-yMselhK6eY8BmA64HlaIv7vrVfqY3Q2YVbpmkGM3zd3HX1zbwo2vRUQaI7g:
+pettikadai.in	TRUE	/	FALSE	1999999999	localization	IN
+pettikadai.in	TRUE	/	FALSE	1999999999	_shopify_essential	:AZqMs6KWAAEABPxRGy-KTbsttiyPKSoPP9cirkWnANzg8JaMDkrpjrP9LjZSjccMYS5frGiE6UMP2yfzDdj_oq_bKn5CpGVjk6xhHv_wLq4mux5GuMS5xpoD0ne9uNhuSw3RKoWmfnAk2P_-v9JdDjVGwGGzqXUrDUWVZh-T41pbIA85YfH8Yq-Ke2OA-YapB7RWkdJTL0JL_jf87UsBH-5eS4N9BCtu9W1juZhVjpi15RG4Dv_f1-0yhUgxVMKSC7eFIAziIQingQd9Tih2X_lxnB02cOhdBli-wOkYT-iWsajg3lRU_gXUZ-9hHEDF6RnJ6ihLE-qbsn9-:
+pettikadai.in	TRUE	/	FALSE	1999999999	Priority	High
+pettikadai.in	TRUE	/	FALSE	1999999999	_shopify_y	9d8d8d63-8075-4183-9cfb-3a5adf81a4c9
+pettikadai.in	TRUE	/	FALSE	1999999999	_shopify_s	f89fa334-b405-40f1-96ea-7849b32d6f60
+pettikadai.in	TRUE	/	FALSE	1999999999	SameSite	Lax
+
