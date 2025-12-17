@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Name - GKR Sweets</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #6b1383;
+            --primary-dark: #4a0d5a;
+            --gold: #d4af37;
+            --text-dark: #333;
+            --text-light: #666;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            color: var(--text-dark);
+        }
+
+        /* Header */
+        .header {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            height: 50px;
+        }
+
+        /* Product Section */
+        .product-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+        }
+
+        /* Image Gallery */
+        .image-gallery {
+            position: relative;
+        }
+
+        .main-image-container {
+            position: relative;
+            width: 100%;
+            height: 500px;
+            border-radius: 15px;
+            overflow: hidden;
+            background: #f5f5f5;
+            cursor: zoom-in;
+        }
+
+        .main-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .main-image-container:hover .main-image {
+            transform: scale(1.5);
+        }
+
+        /* Zoom overlay */
+        .zoom-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 9999;
+            cursor: zoom-out;
+        }
+
+        .zoom-overlay.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .zoom-image {
+            max-width: 90%;
+            max-height: 90%;
+            object-fit: contain;
+        }
+
+        /* Thumbnails */
+        .thumbnails {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+            overflow-x: auto;
+        }
+
+        .thumbnail {
+            width: 80px;
+            height: 80px;
+            border-radius: 8px;
+            cursor: pointer;
+            border: 3px solid transparent;
+            transition: border-color 0.3s;
+            object-fit: cover;
+        }
+
+        .thumbnail:hover,
+        .thumbnail.active {
+            border-color: var(--primary-color);
+        }
+
+        /* Product Info */
+        .product-info {
+            padding: 20px 0;
+        }
+
+        .breadcrumb {
+            color: var(--text-light);
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .breadcrumb a {
+            color: var(--text-light);
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            color: var(--primary-color);
+        }
+
+        .product-title {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: var(--text-dark);
+        }
+
+        .rating {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .stars {
+            color: #ffa500;
+            font-size: 18px;
+        }
+
+        .review-count {
+            color: var(--text-light);
+            font-size: 14px;
+        }
+
+        .price-section {
+            margin: 30px 0;
+        }
+
+        .current-price {
+            font-size: 36px;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        .original-price {
+            font-size: 24px;
+            color: var(--text-light);
+            text-decoration: line-through;
+            margin-left: 15px;
+        }
+
+        .weight {
+            color: var(--text-light);
+            margin-top: 10px;
+        }
+
+        .description {
+            margin: 30px 0;
+            line-height: 1.8;
+            color: var(--text-dark);
+        }
+
+        .add-to-cart-section {
+            margin: 40px 0;
+        }
+
+        .quantity-selector {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .quantity-btn {
+            width: 40px;
+            height: 40px;
+            border: 2px solid var(--primary-color);
+            background: white;
+            color: var(--primary-color);
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+
+        .quantity-btn:hover {
+            background: var(--primary-color);
+            color: white;
+        }
+
+        .quantity-display {
+            font-size: 18px;
+            font-weight: 600;
+            min-width: 40px;
+            text-align: center;
+        }
+
+        .add-to-cart-btn {
+            width: 100%;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 18px;
+            font-size: 18px;
+            font-weight: 700;
+            border-radius: 50px;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: all 0.3s;
+        }
+
+        .add-to-cart-btn:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(107, 19, 131, 0.3);
+        }
+
+        .product-details {
+            margin: 40px 0;
+            padding: 30px;
+            background: #f9f9f9;
+            border-radius: 15px;
+        }
+
+        .product-details h3 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        .product-details ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .product-details li {
+            padding: 10px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .product-details li:last-child {
+            border-bottom: none;
+        }
+
+        @media (max-width: 768px) {
+            .product-container {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .main-image-container {
+                height: 400px;
+            }
+
+            .product-title {
+                font-size: 24px;
+            }
+
+            .current-price {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="home.html">
+                <img src="gkr-logo.png" alt="GKR Sweets" class="logo">
+            </a>
+            <div>
+                <a href="home.html" style="text-decoration: none; color: var(--primary-color); font-weight: 600;">← Back
+                    to Shop</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Product Section -->
+    <div class="product-container">
+        <!-- Image Gallery -->
+        <div class="image-gallery">
+            <div class="main-image-container" onclick="openZoom()">
+                <img src="https://via.placeholder.com/600x600?text=Product+Image" alt="Product" class="main-image"
+                    id="mainImage">
+            </div>
+            <div class="thumbnails" id="thumbnails">
+                <!-- Thumbnails will be loaded here -->
+            </div>
+        </div>
+
+        <!-- Product Info -->
+        <div class="product-info">
+            <div class="breadcrumb">
+                <a href="home.html">Home</a> /
+                <a href="home.html#products">Products</a> /
+                <span id="productCategory">Category</span>
+            </div>
+
+            <h1 class="product-title" id="productName">Product Name</h1>
+
+            <div class="rating">
+                <div class="stars">★★★★★</div>
+                <span class="review-count">(12 reviews)</span>
+            </div>
+
+            <div class="price-section">
+                <span class="current-price" id="currentPrice">₹975.00</span>
+                <span class="original-price" id="originalPrice">₹1,450.00</span>
+                <div class="weight" id="productWeight">Weight: 1 Kg</div>
+            </div>
+
+            <div class="description" id="productDescription">
+                <p>This is a delicious traditional Indian sweet made with authentic ingredients and traditional recipes.
+                    Perfect for festivals, special occasions, or as a delightful treat.</p>
+            </div>
+
+            <div class="add-to-cart-section">
+                <div class="quantity-selector">
+                    <button class="quantity-btn" onclick="decreaseQuantity()">−</button>
+                    <span class="quantity-display" id="quantity">1</span>
+                    <button class="quantity-btn" onclick="increaseQuantity()">+</button>
+                </div>
+                <button class="add-to-cart-btn" onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product-details">
+                <h3>Product Details</h3>
+                <ul>
+                    <li><strong>Category:</strong> <span id="detailCategory">Sweets</span></li>
+                    <li><strong>Weight:</strong> <span id="detailWeight">1 Kg</span></li>
+                    <li><strong>Shelf Life:</strong> 15 days</li>
+                    <li><strong>Storage:</strong> Store in a cool, dry place</li>
+                    <li><strong>Ingredients:</strong> Made with premium quality ingredients</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Zoom Overlay -->
+    <div class="zoom-overlay" id="zoomOverlay" onclick="closeZoom()">
+        <img src="" alt="Zoomed Product" class="zoom-image" id="zoomImage">
+    </div>
+
+    <script type="module">
+        import { products } from './supabase-config.js';
+
+        let currentQuantity = 1;
+        let currentProduct = null;
+
+        // Get product ID from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const productId = urlParams.get('id');
+
+        // Load product data
+        async function loadProduct() {
+            if (!productId) {
+                document.getElementById('productName').textContent = 'Product not found';
+                return;
+            }
+
+            const { data, error } = await products.getById(productId);
+
+            if (error || !data) {
+                document.getElementById('productName').textContent = 'Product not found';
+                return;
+            }
+
+            currentProduct = data;
+
+            // Update page content
+            document.getElementById('productName').textContent = data.name;
+            document.getElementById('productCategory').textContent = data.category;
+            document.getElementById('currentPrice').textContent = `₹${data.price}`;
+
+            if (data.compare_price) {
+                document.getElementById('originalPrice').textContent = `₹${data.compare_price}`;
+            } else {
+                document.getElementById('originalPrice').style.display = 'none';
+            }
+
+            document.getElementById('productWeight').textContent = data.weight ? `Weight: ${data.weight}` : '';
+            document.getElementById('productDescription').innerHTML = `<p>${data.description || 'No description available'}</p>`;
+
+            document.getElementById('detailCategory').textContent = data.category;
+            document.getElementById('detailWeight').textContent = data.weight || 'N/A';
+
+            // Load images
+            if (data.images && data.images.length > 0) {
+                const mainImage = document.getElementById('mainImage');
+                mainImage.src = data.images[0];
+
+                const thumbnailsContainer = document.getElementById('thumbnails');
+                thumbnailsContainer.innerHTML = data.images.map((img, index) => `
+                    <img src="${img}" 
+                         alt="Thumbnail ${index + 1}" 
+                         class="thumbnail ${index === 0 ? 'active' : ''}"
+                         onclick="changeMainImage('${img}', ${index})">
+                `).join('');
+            }
+
+            document.title = `${data.name} - GKR Sweets`;
+        }
+
+        // Change main image
+        window.changeMainImage = function (src, index) {
+            document.getElementById('mainImage').src = src;
+            document.querySelectorAll('.thumbnail').forEach((thumb, i) => {
+                thumb.classList.toggle('active', i === index);
+            });
+        };
+
+        // Zoom functions
+        window.openZoom = function () {
+            const mainImage = document.getElementById('mainImage');
+            const zoomImage = document.getElementById('zoomImage');
+            const zoomOverlay = document.getElementById('zoomOverlay');
+
+            zoomImage.src = mainImage.src;
+            zoomOverlay.classList.add('active');
+        };
+
+        window.closeZoom = function () {
+            document.getElementById('zoomOverlay').classList.remove('active');
+        };
+
+        // Quantity functions
+        window.increaseQuantity = function () {
+            currentQuantity++;
+            document.getElementById('quantity').textContent = currentQuantity;
+        };
+
+        window.decreaseQuantity = function () {
+            if (currentQuantity > 1) {
+                currentQuantity--;
+                document.getElementById('quantity').textContent = currentQuantity;
+            }
+        };
+
+        // Add to cart
+        window.addToCart = async function () {
+            if (!currentProduct) return;
+
+            const sessionId = localStorage.getItem('sessionId') || generateSessionId();
+
+            // Import cart from supabase-config
+            const { cart } = await import('./supabase-config.js');
+            const { error } = await cart.addItem(sessionId, currentProduct.id, currentQuantity);
+
+            if (error) {
+                alert('Error adding to cart');
+                return;
+            }
+
+            alert(`Added ${currentQuantity} item(s) to cart!`);
+            currentQuantity = 1;
+            document.getElementById('quantity').textContent = currentQuantity;
+        };
+
+        function generateSessionId() {
+            const id = 'session_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+            localStorage.setItem('sessionId', id);
+            return id;
+        }
+
+        // Initialize
+        loadProduct();
+    </script>
+</body>
+
+</html>

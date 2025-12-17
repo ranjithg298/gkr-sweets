@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - GKR Sweets</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reusing styles from admin.html for consistency */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            background: #f9f9f9;
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #6b1383 0%, #8f19b0 100%);
+            color: white;
+            padding: 20px 0;
+            margin-bottom: 30px;
+        }
+
+        .header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header h1 {
+            font-size: 24px;
+        }
+
+        .header a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .product-detail {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        .product-image img {
+            width: 100%;
+            border-radius: 12px;
+            object-fit: cover;
+        }
+
+        .product-info h1 {
+            font-size: 32px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .product-category {
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .product-price {
+            font-size: 28px;
+            color: #6b1383;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .product-description {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        .add-to-cart-btn {
+            background: linear-gradient(135deg, #6b1383 0%, #8f19b0 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .add-to-cart-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(107, 19, 131, 0.3);
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            font-size: 20px;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .product-detail {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>🍬 GKR Sweets</h1>
+            <nav>
+                <a href="home.html">Home</a>
+                <a href="admin.html" style="margin-left: 20px;">Admin</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div id="loading" class="loading">Loading product details...</div>
+
+        <div id="product-content" class="product-detail" style="display: none;">
+            <div class="product-image">
+                <img id="p-image" src="" alt="Product Image">
+            </div>
+            <div class="product-info">
+                <h1 id="p-name">Product Name</h1>
+                <p id="p-category" class="product-category">Category</p>
+                <p id="p-price" class="product-price">₹0.00</p>
+                <div id="p-description" class="product-description">
+                    Description goes here...
+                </div>
+                <button class="add-to-cart-btn" onclick="addToCart()">Add to Cart</button>
+            </div>
+        </div>
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Product Details - GKR Sweets</title>
+            <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+            <style>
+                /* Reusing styles from admin.html for consistency */
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+
+                body {
+                    font-family: 'Lato', sans-serif;
+                    background: #f9f9f9;
+                    min-height: 100vh;
+                    color: #333;
+                }
+
+                .container {
+                    max-width: 1200px;
+                    margin: 0 auto;
+                    padding: 20px;
+                }
+
+                .header {
+                    background: linear-gradient(135deg, #6b1383 0%, #8f19b0 100%);
+                    color: white;
+                    padding: 20px 0;
+                    margin-bottom: 30px;
+                }
+
+                .header .container {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+
+                .header h1 {
+                    font-size: 24px;
+                }
+
+                .header a {
+                    color: white;
+                    text-decoration: none;
+                    font-weight: bold;
+                }
+
+                .product-detail {
+                    background: white;
+                    border-radius: 12px;
+                    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+                    padding: 30px;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 40px;
+                }
+
+                .product-image img {
+                    width: 100%;
+                    border-radius: 12px;
+                    object-fit: cover;
+                }
+
+                .product-info h1 {
+                    font-size: 32px;
+                    color: #333;
+                    margin-bottom: 10px;
+                }
+
+                .product-category {
+                    color: #666;
+                    font-size: 16px;
+                    margin-bottom: 20px;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                }
+
+                .product-price {
+                    font-size: 28px;
+                    color: #6b1383;
+                    font-weight: bold;
+                    margin-bottom: 20px;
+                }
+
+                .product-description {
+                    font-size: 16px;
+                    line-height: 1.6;
+                    color: #555;
+                    margin-bottom: 30px;
+                }
+
+                .add-to-cart-btn {
+                    background: linear-gradient(135deg, #6b1383 0%, #8f19b0 100%);
+                    color: white;
+                    border: none;
+                    padding: 15px 40px;
+                    border-radius: 8px;
+                    font-size: 18px;
+                    font-weight: bold;
+                    cursor: pointer;
+                    transition: all 0.3s ease;
+                }
+
+                .add-to-cart-btn:hover {
+                    transform: translateY(-2px);
+                    box-shadow: 0 10px 25px rgba(107, 19, 131, 0.3);
+                }
+
+                .loading {
+                    text-align: center;
+                    padding: 50px;
+                    font-size: 20px;
+                    color: #666;
+                }
+
+                @media (max-width: 768px) {
+                    .product-detail {
+                        grid-template-columns: 1fr;
+                    }
+                }
+            </style>
+        </head>
+
+        <body>
+            <header class="header">
+                <div class="container">
+                    <h1>🍬 GKR Sweets</h1>
+                    <nav>
+                        <a href="home.html">Home</a>
+                        <a href="admin.html" style="margin-left: 20px;">Admin</a>
+                    </nav>
+                </div>
+            </header>
+
+            <div class="container">
+                <div id="loading" class="loading">Loading product details...</div>
+
+                <div id="product-content" class="product-detail" style="display: none;">
+                    <div class="product-image">
+                        <img id="p-image" src="" alt="Product Image">
+                    </div>
+                    <div class="product-info">
+                        <h1 id="p-name">Product Name</h1>
+                        <p id="p-category" class="product-category">Category</p>
+                        <p id="p-price" class="product-price">₹0.00</p>
+                        <div id="p-description" class="product-description">
+                            Description goes here...
+                        </div>
+                        <button class="add-to-cart-btn" onclick="addToCart()">Add to Cart</button>
+                        <button class="add-to-cart-btn" style="background: #28a745; margin-left: 10px;"
+                            onclick="buyNow()">Buy Now</button>
+                    </div>
+                </div>
+
+                <div id="error-message" class="loading" style="display: none; color: red;">
+                    Product not found.
+                </div>
+            </div>
+
+            <script type="module">
+                import { products, cart } from './js/supabase-config.js';
+                import { checkout } from './js/payment.js';
+
+                const loadingDiv = document.getElementById('loading');
+                const contentDiv = document.getElementById('product-content');
+                const errorDiv = document.getElementById('error-message');
+
+                // Get product ID (slug) from URL
+                const urlParams = new URLSearchParams(window.location.search);
+                const productSlug = urlParams.get('id');
+
+                let currentProduct = null;
+
+                async function loadProduct() {
+                    if (!productSlug) {
+                        showError('No product specified.');
+                        return;
+                    }
+
+                    try {
+                        const { data, error } = await products.getBySlug(productSlug);
+
+                        if (error) throw error;
+                        if (!data) throw new Error('Product not found');
+
+                        currentProduct = data;
+                        renderProduct(data);
+                    } catch (err) {
+                        console.error('Error loading product:', err);
+                        showError('Product not found.');
+                    }
+                }
+
+                function renderProduct(product) {
+                    document.title = `${product.name} - GKR Sweets`;
+
+                    // Update UI elements
+                    document.getElementById('p-name').textContent = product.name;
+                    document.getElementById('p-category').textContent = product.category;
+                    document.getElementById('p-price').textContent = `₹${product.price.toFixed(2)}`;
+                    document.getElementById('p-description').textContent = product.description || 'No description available.';
+
+                    const img = document.getElementById('p-image');
+                    img.src = product.image_url || (product.images && product.images.length > 0 ? product.images[0] : 'https://placehold.co/600x400?text=No+Image');
+                    img.alt = product.name;
+
+                    // Show content
+                    loadingDiv.style.display = 'none';
+                    contentDiv.style.display = 'grid';
+                }
+
+                function showError(msg) {
+                    loadingDiv.style.display = 'none';
+                    errorDiv.textContent = msg;
+                    errorDiv.style.display = 'block';
+                }
+
+                // Add to Cart Functionality
+                window.addToCart = async function () {
+                    if (!currentProduct) return;
+
+                    const btn = document.querySelector('.add-to-cart-btn');
+                    const originalText = btn.textContent;
+                    btn.disabled = true;
+                    btn.textContent = 'Adding...';
+
+                    try {
+                        // Get or create session ID
+                        let sessionId = localStorage.getItem('cart_session_id');
+                        if (!sessionId) {
+                            sessionId = crypto.randomUUID();
+                            localStorage.setItem('cart_session_id', sessionId);
+                        }
+
+                        const { error } = await cart.addItem(sessionId, currentProduct.id, 1);
+
+                        if (error) throw error;
+
+                        alert('Product added to cart!');
+                    } catch (err) {
+                        console.error('Add to cart error:', err);
+                        alert('Failed to add to cart. Please try again.');
+                    } finally {
+                        btn.disabled = false;
+                        btn.textContent = originalText;
+                    }
+                };
+
+                window.buyNow = function () {
+                    if (!currentProduct) return;
+                    checkout(currentProduct);
+                };
+
+                // Image Pan Feature
+                const imgContainer = document.querySelector('.product-image');
+                const img = document.getElementById('p-image');
+
+                imgContainer.addEventListener('mousemove', function (e) {
+                    const { left, top, width, height } = imgContainer.getBoundingClientRect();
+                    const x = (e.clientX - left) / width * 100;
+                    const y = (e.clientY - top) / height * 100;
+
+                    img.style.transformOrigin = `${x}% ${y}%`;
+                    img.style.transform = 'scale(2)'; // Zoom level
+                });
+
+                imgContainer.addEventListener('mouseleave', function () {
+                    img.style.transform = 'scale(1)';
+                    img.style.transformOrigin = 'center center';
+                });
+
+                // Add CSS for smooth transition
+                img.style.transition = 'transform 0.2s ease-out';
+                imgContainer.style.overflow = 'hidden';
+                imgContainer.style.cursor = 'zoom-in';
+
+                // Initialize
+                loadProduct();
+            </script>
+        </body>
+
+        </html>
