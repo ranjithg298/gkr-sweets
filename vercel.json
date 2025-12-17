@@ -1,59 +1,22 @@
 {
     "version": 2,
     "name": "gkr-sweets",
-    "env": {
-        "SUPABASE_URL": "https://mamsjkoxduulgveshdcf.supabase.co",
-        "SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1hbXNqa294ZHV1bGd2ZXNoZGNmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjM4MjY3NzEsImV4cCI6MjA3OTQwMjc3MX0.rk2qTSXHJbdR23Buesz7kEV0CCk9IJP961Ym2TyWFEo"
-    },
-    "builds": [
+    "buildCommand": "",
+    "outputDirectory": ".",
+    "installCommand": "npm install",
+    "framework": null,
+    "rewrites": [
         {
-            "src": "api/**/*.js",
-            "use": "@vercel/node"
+            "source": "/",
+            "destination": "/index.html"
         },
         {
-            "src": "*.html",
-            "use": "@vercel/static"
+            "source": "/admin",
+            "destination": "/admin.html"
         },
         {
-            "src": "pettikadai.in/**",
-            "use": "@vercel/static"
-        },
-        {
-            "src": "js/**",
-            "use": "@vercel/static"
-        },
-        {
-            "src": "cdn/**",
-            "use": "@vercel/static"
-        },
-        {
-            "src": "*.json",
-            "use": "@vercel/static"
-        },
-        {
-            "src": "*.js",
-            "use": "@vercel/static"
-        }
-    ],
-    "routes": [
-        {
-            "src": "/api/(.*)",
-            "dest": "/api/$1"
-        },
-        {
-            "src": "/",
-            "dest": "/index.html"
-        },
-        {
-            "src": "/admin",
-            "dest": "/admin.html"
-        },
-        {
-            "src": "/auth",
-            "dest": "/auth.html"
-        },
-        {
-            "handle": "filesystem"
+            "source": "/auth",
+            "destination": "/auth.html"
         }
     ],
     "headers": [
