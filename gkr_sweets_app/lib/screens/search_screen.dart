@@ -74,7 +74,7 @@ class _SearchScreenState extends State<SearchScreen> {
           decoration: InputDecoration(
             hintText: 'search_products'.tr(),
             border: InputBorder.none,
-            hintStyle: TextStyle(color: AppColors.textLight),
+            hintStyle: const TextStyle(color: AppColors.textLight),
           ),
           onChanged: (value) {
             // Debounce search
@@ -114,7 +114,7 @@ class _SearchScreenState extends State<SearchScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(
+            const Icon(
               Icons.search,
               size: 100,
               color: AppColors.textLight,
@@ -134,7 +134,7 @@ class _SearchScreenState extends State<SearchScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(
+            const Icon(
               Icons.search_off,
               size: 100,
               color: AppColors.textLight,

@@ -32,7 +32,7 @@ class ProfileScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(
+            const Icon(
               Icons.person_outline,
               size: 100,
               color: AppColors.textLight,
